@@ -6,8 +6,9 @@ public class EvenNumbersPrinter {
         while (i<=printTillInclusive){
             if(i %2 == 0){
                 System.out.println(i);
-                i++;
+
             }
+            i++;
         }
     }
 }

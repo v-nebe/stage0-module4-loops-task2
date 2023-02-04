@@ -4,10 +4,10 @@ public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
         int i=0;
         while (i<=printToInclusive){
-            if(i % i ==0){
+            if(!(i % 2 ==0 || i% 3==0 || i% 5 ==0 || i%7 ==0 || i%11 ==0)){
                 System.out.println(i);
-                i++;
             }
+            i++;
         }
     }
 }
